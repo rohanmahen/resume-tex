@@ -1,0 +1,94 @@
+\documentclass[a4paper,11pt]{article}
+
+\usepackage[%
+    top=0.75in,%
+    left=1.2in,%
+    right=1.2in,%
+    bottom=0.75in%
+]{geometry}
+
+\usepackage[defaultsans]{opensans}
+\usepackage{sourcesanspro}
+\usepackage{charter}
+\usepackage{hyperref}
+\pagenumbering{gobble}
+
+\usepackage[%
+    tracking=true,%
+    letterspace=150,%
+    kerning=true,%
+    selected=true%
+]{microtype}
+
+\usepackage{titlesec}
+
+\titleformat{\section}%
+{\scshape\normalsize\sffamily}{}{0pt}%
+{\rule{\textwidth}{0.5pt}\\}%
+{\bigskip}%
+
+% -- Convenience --
+\newcommand{\hdr}[2]{{\raggedright\Large #1 \hfill #2}}
+\newcommand{\itm}{\item[-]}
+
+\begin{document}
+
+% -- Mast --
+\begin{center}
+\begin{scshape}
+{\huge\sffamily Rohan Mahendraker}\\
+\medskip
+\textsf{(+44) 1234 567890  :  rohan@mahendraker.com}
+\end{scshape}
+\end{center}
+
+% -- Body --
+\section{Education}
+\hdr{King's Business School}{2020 -- 2023}
+\begin{itemize}
+	\itm Received First Class Honours BSc. degree in Accounting \& Finance.
+	\itm Received letter of commendation from the Dean of Faculty for academic excellence.
+	\itm Expected to receive qualification of First with Honours.
+	\itm Class Rank: 4th.
+\end{itemize}
+\medskip
+\hdr{International School of Helsinki}{2010 -- 2019}
+\begin{itemize}
+    	\itm International Baccalaureate Diploma: 40 points.
+	\itm Class rank: 1st, Global Percentile: 95th.
+	\itm Graduated each year with Headmaster's Honours.
+\end{itemize}
+
+
+\section{Work Experience}
+\hdr{Venyu}{2023 - Ongoing}\\[2mm]
+\emph{\large CTO/Cofounder}
+\begin{itemize}
+	\itm Cofounded Venyu – a one-stop-shop for corporate event booking.
+	\itm Used React/React Native for frontend, Firebase for backend, and Figma for UI.
+    	\itm £50k+ in GMV, customers include PwC, easyJet, and NatWest.
+\end{itemize}
+\bigskip
+
+\hdr{Teuf avoin yhti\"{o}}{2017 - 2021}\\[2mm]
+\emph{\large Founder}
+\begin{itemize}
+	\itm Founded and led a profitable 3-person event/artist management company.
+    	\itm Coordinated and managed logistics for nightlife events with 300+ attendees.
+	\itm Developed a Flutter/Firebase mobile app to distribute nightlife promo content.
+	\itm Partnered with Rekom Group – the largest nightlife provider in Scandinavia.
+	\itm Managed the careers of Vic Versa, Ninoz and Rocky9 (400k+ streams combined). 
+
+\end{itemize}
+\section{Skills}
+\hdr{Software Development}{}\\[2mm]
+\emph{\large Python, Dart, HTML/CSS, JavaScript/TypeScript, Firebase, Docker, Figma}
+\smallskip
+\begin{itemize}
+	\itm Developed a Docker-ized invoice generation API for an ERP firm using Django.
+	\itm Wrote a web-services sales lead generator that scraped the Finnish Trade Register API.
+	\itm Deployed a NFT generative art project on the Ethereum Blockchain using Python.
+\end{itemize}
+
+\end{document}
+
