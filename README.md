@@ -63,7 +63,3 @@ You can easily modify this template to suit your needs. Feel free to adjust the 
 ## License
 
 This project is open-sourced under the MIT License. See the LICENSE file for more details.
-
-## Contributing
-
-Contributions, issues, and feature requests are welcome! Feel free to fork the repository and submit pull requests.
