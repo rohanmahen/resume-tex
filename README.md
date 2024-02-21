@@ -49,7 +49,7 @@ This command will create a `resume.pdf` file in the same directory.
 
 ### Step 5: Review and Distribute
 
-Open the generated `resume.pdf` file to review your resume. Make sure all the information is correct and that the layout looks as expected.
+Open the new `resume.pdf` file to review your resume. Make sure all the information is correct and that the layout looks as expected.
 
 ## Customization
 
